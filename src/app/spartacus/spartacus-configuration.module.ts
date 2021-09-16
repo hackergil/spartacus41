@@ -10,13 +10,15 @@ import { defaultCmsContentProviders, layoutConfig, mediaConfig } from "@spartacu
   providers: [provideConfig(layoutConfig), provideConfig(mediaConfig), ...defaultCmsContentProviders, provideConfig(<OccConfig>{
     backend: {
       occ: {
-        baseUrl: 'https://localhost:9002',
+        baseUrl: 'https://api.spartacus.rocks',
       }
     },
   }), provideConfig(<SiteContextConfig>{
     context: {
-      currency: ['USD'],
+      urlParameters: ['baseSite', 'language', 'currency'],
+      baseSite: ['electronics-spa'],
       language: ['en'],
+      currency: ['USD'],
     },
   }), provideConfig(<I18nConfig>{
     i18n: {
