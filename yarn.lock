@@ -1511,6 +1511,13 @@
   dependencies:
     tslib "^2.3.0"
 
+"@spartacus/storefinder@~4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@spartacus/storefinder/-/storefinder-4.1.0.tgz#87da150cd3671fd88ddc5a04f7b640bdfa03a73a"
+  integrity sha512-B9chTZtdeRQs9zfRbd2E/A9MCo1Y01fOMPEW73QKFbk1gtIojamZ7+NCLSwbNOuLsJc07TbjI5Nw5aCMIZ0dUg==
+  dependencies:
+    tslib "^2.3.0"
+
 "@spartacus/storefront@~4.1.0":
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/@spartacus/storefront/-/storefront-4.1.0.tgz#c78a6328cc8935c95dd76587e27ea3f56dae1eb7"
@@ -1524,6 +1531,13 @@
   integrity sha512-nnHBa6bsk9Nf2gpuysG+R+fotLDdaQcttAE3XyOCCK7J9qIbKAom08krthKfyqPh98/0QMmBAkpN3iYsDDjGqA==
   dependencies:
     hamburgers "^1.1.3"
+
+"@spartacus/tracking@~4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@spartacus/tracking/-/tracking-4.1.0.tgz#3bd831c862e6565d6ace3ffe87006880a964431f"
+  integrity sha512-HN6tiAICvjXaYgBWVf1H+gTheGIgSlCaDauBSrMID7LcNSEeD4A6ehLgUtfXpMtpTFYbpjoCaJa5RIyQBWFBZw==
+  dependencies:
+    tslib "^2.3.0"
 
 "@spartacus/user@~4.1.0":
   version "4.1.0"
